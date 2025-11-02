@@ -3,115 +3,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>〇〇町のにぎわいをつくるプロジェクト</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      margin: 0;
-      background: #f5f5f5;
-      color: #222;
-      line-height: 1.6;
-    }
-    header {
-      background: #005bbb;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.4rem;
-      font-weight: 600;
-    }
-    header p {
-      margin: .5rem 0 0;
-      font-size: .9rem;
-      opacity: .9;
-    }
-    main {
-      max-width: 900px;
-      background: white;
-      margin: -1rem auto 2rem;
-      padding: 2rem 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 12px 24px rgba(0,0,0,.08);
-    }
-    h2 {
-      font-size: 1.1rem;
-      margin-top: 2rem;
-      border-left: 0.4rem solid #005bbb;
-      padding-left: .5rem;
-    }
-    .cards {
-      display: grid;
-      gap: 1rem;
-    }
-    @media(min-width:600px){
-      .cards {
-        grid-template-columns: repeat(3,1fr);
-      }
-    }
-    .card {
-      background:#fafafa;
-      border-radius:10px;
-      padding:1rem;
-      border:1px solid #ddd;
-      font-size:.9rem;
-    }
-    footer {
-      text-align:center;
-      font-size:.7rem;
-      color:#666;
-      margin-bottom:2rem;
-    }
-  </style>
+  <title>大阪狭山市クラフトビール｜大野ブドウのフルーツエール</title>
+  <meta name="description" content="大阪狭山市の特産・大野ブドウを使った、ぶどう香るクラフトビール。地元の畑から生まれるフルーティな味わいをお楽しみください。">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-  <h1>〇〇町活性化プロジェクト</h1>
-  <p>空き店舗をイベントスペースに。人が集まるきっかけをつくります。</p>
-</header>
-
-<main>
-  <section>
-    <h2>私たちがやりたいこと</h2>
-    <p>
-      商店街の空きスペースを活用したマルシェや、子ども向けワークショップ、
-      夜のライトアップ展示などを通じて「歩きたくなる街」をつくります。
-    </p>
-  </section>
-
-  <section>
-    <h2>直近の取り組み</h2>
-    <div class="cards">
-      <div class="card">
-        <strong>11月 ○日(日)</strong><br>
-        商店街マルシェ開催（野菜・スイーツ・手作り雑貨）
-      </div>
-      <div class="card">
-        <strong>常設化を検討中</strong><br>
-        空き店舗を週末だけカフェにする実証テスト
-      </div>
-      <div class="card">
-        <strong>参加メンバー募集</strong><br>
-        一緒に企画・広報・デザインを手伝ってくれる人を探しています
-      </div>
+  <!-- ヒーロー（ブドウ畑背景） -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <h1 class="hero-title">大阪狭山市 クラフトビール</h1>
+      <p class="hero-sub">
+        大野ブドウのやさしい香りとまちの人の手しごと。<br>
+        大阪狭山市から生まれた、フルーティなクラフトビール。
+      </p>
+      <a class="hero-cta" href="#shop">オンラインで購入（準備中）</a>
     </div>
-  </section>
+  </header>
 
-  <section>
-    <h2>お問い合わせ</h2>
-    <p>
-      ボランティア参加・出店希望・取材のご相談などはこちらへ：<br>
-      <strong>info@example.com</strong>
-    </p>
-  </section>
-</main>
+  <main>
 
-<footer>
-  © 2025 〇〇町活性化プロジェクト
-</footer>
+    <!-- コンセプト（3カード版に戻す） -->
+    <section class="section concept">
+      <div class="section-inner">
+
+        <div class="section-header">
+          <h2 class="section-title">地域から生まれるビール</h2>
+          <p class="section-lead">
+            このビールは大阪狭山市の特産「大野ブドウ」を使ったクラフトビールです。<br>
+            ぶどう本来のふくよかな香り、ほのかな甘み、フルーティな余韻。<br>
+            食事と一緒に楽しめる、軽やかな飲み口をめざしました。
+          </p>
+        </div>
+
+        <div class="concept-grid">
+          <div class="concept-card">
+            <h3 class="concept-card-title">大野ブドウ</h3>
+            <p class="concept-card-text">
+              大阪狭山市で古くから親しまれる大野ブドウを使用。<br>
+              地域の畑で大切に育てられたぶどうの香りを、ぎゅっと閉じ込めました。
+            </p>
+          </div>
+
+          <div class="concept-card">
+            <h3 class="concept-card-title">フルーツエール</h3>
+            <p class="concept-card-text">
+              苦味が強すぎない、飲みやすい仕上がり。<br>
+              ぶどうの華やかなアロマと、やさしい酸味が特徴です。
+            </p>
+          </div>
+
+          <div class="concept-card">
+            <h3 class="concept-card-title">“まち”のビール</h3>
+            <p class="concept-card-text">
+              このビールは「地域をもっと面白くしたい」という想いから生まれました。<br>
+              大阪狭山市をもっと歩きたくなるきっかけに。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 商品紹介（写真：あなたの画像） -->
+    <section class="section product" id="product">
+      <div class="section-inner product-inner">
+        <div class="product-text">
+          <h2 class="section-title">大野ブドウ クラフトビール</h2>
+          <p class="product-desc">
+            大阪狭山市産の大野ブドウを使用した、果実香るフルーツエール。<br>
+            香りは華やかで飲みやすく、地域の新しい味わいとして親しまれています。
+          </p>
+          <ul class="product-spec">
+            <li><span class="label">原材料</span> 麦芽 / ホップ / 大野ブドウ（大阪狭山市産）</li>
+            <li><span class="label">スタイル</span> フルーツエール</li>
+            <li><span class="label">内容量</span> 330ml（予定）</li>
+          </ul>
+        </div>
+
+        <div class="product-image">
+          <img src="images/grapecraftbeer.png" alt="グレープクラフトビールの写真">
+        </div>
+      </div>
+    </section>
+
+    <!-- 購入情報 -->
+    <section class="section shop" id="shop">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">購入方法</h2>
+          <p class="section-lead">
+            現在は店頭販売と、オンライン販売（準備中）を予定しています。
+          </p>
+        </div>
+
+        <div class="shop-grid">
+          <!-- 店頭販売 -->
+          <div class="shop-card">
+            <h3 class="shop-card-title">店頭で買う</h3>
+            <p class="shop-card-text">
+              下記の販売拠点での取り扱いを予定しています。<br>
+              数量限定となる場合がありますので、在庫状況は事前にお問い合わせください。
+            </p>
+
+            <div class="shop-address">
+              <div class="addr-label">販売予定地</div>
+              <div class="addr-body">
+                大阪府大阪狭山市池尻北２－１９－２
+              </div>
+            </div>
+
+            <div class="map-frame">
+              <iframe
+                src="https://www.google.com/maps?q=大阪府大阪狭山市池尻北2-19-2&output=embed"
+                loading="lazy"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <!-- ネット販売 -->
+          <div class="shop-card">
+            <h3 class="shop-card-title">オンラインで買う</h3>
+            <p class="shop-card-text">
+              ネットでのご注文にも対応予定です。<br>
+              クレジットカードなどで決済し、ご自宅にお届けできるように準備しています。
+            </p>
+
+            <a class="shop-online-link" href="#" aria-disabled="true">
+              オンラインショップを見る（準備中）
+            </a>
+
+            <p class="shop-note">
+              ※このページはサンプルです。まだ実際の販売や配送は行っていません。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="section contact">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">お問い合わせ・コラボのご相談</h2>
+          <p class="section-lead">
+            取材のご希望、地域イベントとのコラボ、販売場所としての参加など、まずはお気軽にご相談ください。<br>
+            （メールアドレスはダミー表記です）
+          </p>
+        </div>
+
+        <div class="contact-box">
+          <p class="contact-line">
+            メール：info@example.com
+          </p>
+          <p class="contact-small">
+            「大阪狭山市のクラフトビールの件で」とお書きください。
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        © 大阪狭山市クラフトビールプロジェクト / 大野ブドウクラフトビール（サンプルサイト）
+      </p>
+      <p class="footer-notice">
+        このサイトはデモ用に作成されたイメージページです。実際の販売・流通情報とは異なる場合があります。
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
